@@ -1,0 +1,68 @@
+body {
+    background-image: url('../images/bg3.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.8); /* Dark background with some transparency */
+    color: #ffffff; /* White text color for contrast */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333333; /* Darker header background */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(50, 50, 50, 0.8); /* Slightly lighter dark background for even rows */
+}
+
+tr:hover {
+    background-color: rgba(100, 100, 100, 0.8); /* Highlight row on hover */
+}
+
+button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #8106e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
